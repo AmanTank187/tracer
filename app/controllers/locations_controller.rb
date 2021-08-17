@@ -10,8 +10,8 @@ class LocationsController < ApplicationController
 
     def create 
         @location = Location.new(location_params)
-
-        if @location.save 
+        @location.user = current_user 
+        if @location.save
             redirect_to root_path
         else 
             render 'new'

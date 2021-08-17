@@ -7,7 +7,7 @@ class UsersController < ApplicationController
     end 
     
     def show 
-        
+        @locations = @user.locations.all
     end 
 
     private 
