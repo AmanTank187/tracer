@@ -24,5 +24,6 @@ class LocationsController < ApplicationController
         params.require(:location).permit(:address, :longitude, :latitude)
     end 
 
+    #new changes
 
 end
