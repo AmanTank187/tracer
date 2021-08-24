@@ -1,6 +1,9 @@
 class Location < ApplicationRecord
-
+    validates :longitude, presence: true
+    validates :latitude, presence: true
+    
     belongs_to :user 
+    
 
     reverse_geocoded_by :latitude, :longitude, address: :address do |obj,results|
         if geo = results.first 
