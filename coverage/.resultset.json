@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/amantank/Desktop/JS:Ruby/tracer/spec/models/locations_spec.rb": {
+      "/Users/amantank/Desktop/JS:Ruby/tracer/spec/models/location_spec.rb": {
         "lines": [
           1,
           null,
@@ -751,12 +751,26 @@
           null
         ]
       },
-      "/Users/amantank/Desktop/JS:Ruby/tracer/spec/models/users_spec.rb": {
+      "/Users/amantank/Desktop/JS:Ruby/tracer/spec/models/user_spec.rb": {
         "lines": [
           1,
           1,
           1,
           1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
           1,
           null,
           null,
@@ -790,6 +804,6 @@
         ]
       }
     },
-    "timestamp": 1629897020
+    "timestamp": 1629910977
   }
 }

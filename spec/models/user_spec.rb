@@ -12,6 +12,20 @@ RSpec.describe User, type: :model do
             expect(user).to eq(true)
         end 
 
+        it "does not save the user if username is less than 3 characters" do 
+            user = User.new(username: "am",
+            email: "amantest@example.com", 
+            password: "amantest").save
+            expect(user).to eq(false)
+        end 
+
+        it "does not save if email is not provided" do 
+            user = User.new(username: "amantest",
+            email: "amantestexample.com", 
+            password: "amantest").save
+            expect(user).to eq(false)
+        end 
+
         it "Does not save the user if password does not meet requirements" do 
             user = User.new(username: "amantest",
             email: "amantest@example.com", 
