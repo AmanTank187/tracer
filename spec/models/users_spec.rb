@@ -11,5 +11,12 @@ RSpec.describe User, type: :model do
             password: "amantest").save
             expect(user).to eq(true)
         end 
+
+        it "Does not save the user if password does not meet requirements" do 
+            user = User.new(username: "amantest",
+            email: "amantest@example.com", 
+            password: "a").save
+            expect(user).to eq(false)
+        end 
     end 
 end 
