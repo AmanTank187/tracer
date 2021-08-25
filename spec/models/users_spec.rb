@@ -18,5 +18,17 @@ RSpec.describe User, type: :model do
             password: "a").save
             expect(user).to eq(false)
         end 
+
+        it "Does not save the user if email has already been used" do 
+            user1 = User.new(username: "amantest",
+            email: "amantest@example.com", 
+            password: "amantest").save
+
+            user = User.new(username: "amantest20",
+            email: "amantest@example.com", 
+            password: "amantest1").save
+
+            expect(user).to eq(false)
+        end 
     end 
 end 
