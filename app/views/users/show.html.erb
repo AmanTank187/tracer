@@ -1,1 +1,21 @@
-<h1> <%= @user.username %> </h1>
+<h1 class="text-center mt-4" id="index-header"><%= @user.username.capitalize %>'s Road Map</h1>
+<div class="container">
+    <% @locations.reverse_order.each do |location| %>
+        <div class="row justify-content-md-center">
+            <div class="col-8 mt-4">
+                <div class="card text-center shadow mb-5 bg-white rounded">
+                <div class="card-body">
+                        <h3 class="card-title"><%= location.address %><br></h3>
+                        <h5 class="card-text"><%= location.city %><br></h5>
+                        <h5 class="card-text"><%= location.postcode %></h5>
+                    </div>
+                <div class="card-footer text-muted">
+                    <small>Visited <%= time_ago_in_words(location.created_at) %></small>
+                </div>
+                </div>
+            </div>
+        </div>
+    <% end %>
+</div>
+
+
