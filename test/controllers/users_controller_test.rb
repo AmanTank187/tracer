@@ -12,8 +12,5 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
       assert_response :redirect 
    end
 
-   test "Should be able to get to index page if user is signed in" do
-      get users_url 
-      assert_response :success 
-   end
+   
 end
