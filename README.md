@@ -21,6 +21,31 @@ I am testing my learning and adding to my knowledge by using Ruby on Rails to cr
 - Well tested code.
 - Use branches more often.
 
+---
+
+## Learnings
+
+- Comfortable with models and validations. 
+- Creating controllers to suit my application. 
+- Creating migration files to suit my application.
+- Used devise for user sign up.
+- Used the geocoder gem to get location. 
+- Used Javascript to get coordinates of user.
+- Becoming confident writing model and feature tests. 
+- Using rails console. 
+
+
+## Problems faced:
+
+## Successes:
+
+## What i could have done better?:
+
+## What i could add to this project?:
+
+## A better way to write existing code?: 
+
+
 
 
 
