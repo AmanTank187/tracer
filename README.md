@@ -1,24 +1,6 @@
-# README
+# Tracer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Tracer is a clone of the famous track and trace app. I decided to work on this project because i am passionate about working on projects that have a positive impact. 
+I am testing my learning and adding to my knowledge by using Ruby on Rails to create this app.  
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
