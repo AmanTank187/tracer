@@ -37,6 +37,8 @@ I am testing my learning and adding to my knowledge by using Ruby on Rails to cr
 
 ## Problems faced:
 
+- Getting the Javascript values into the ruby form
+
 ## Successes:
 
 ## What i could have done better?:
