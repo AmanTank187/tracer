@@ -55,8 +55,8 @@ I am testing my learning and adding to my knowledge by using Ruby on Rails to cr
 ## A better way to write existing code?: 
 
 - Split the front end and back end.
- - Javascript on the front end and Rails on the backend.
- - Make API calls from the frontend with Javascript. 
+  -Javascript on the front end and Rails on the backend.
+  -Make API calls from the frontend with Javascript. 
 -
 
 
