@@ -37,16 +37,16 @@ I am testing my learning and adding to my knowledge by using Ruby on Rails to cr
 
 ## Problems faced:
 
-- Getting the Javascript values into the ruby form
-- Using rails console to identify i was writing a modal test incorrectly
+- Getting the Javascript values into the ruby form.
+- Using rails console to identify i was writing a modal test incorrectly.
 
 ## Successes:
 
-- Using the geocoder gem successfully 
-- Using the devise gem
-- Letting a user add their location
-- Good modal and feature tests
-- Confidently using rails application 
+- Using the geocoder gem successfully. 
+- Using the devise gem.
+- Letting a user add their location.
+- Good modal and feature tests.
+- Confidently using rails application. 
 
 ## What i could have done better?:
 
@@ -54,9 +54,10 @@ I am testing my learning and adding to my knowledge by using Ruby on Rails to cr
 
 ## A better way to write existing code?: 
 
-- Split the front end and back end
--- Javascript on the front end and Rails on the backend 
--- Make API calls from the frontend with Javascript. 
+- Split the front end and back end.
+ - Javascript on the front end and Rails on the backend.
+ - Make API calls from the frontend with Javascript. 
+-
 
 
 
