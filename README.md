@@ -50,6 +50,8 @@ I am testing my learning and adding to my knowledge by using Ruby on Rails to cr
 
 ## What i could have done better?:
 
+- Followed Test driven development more strictly 
+
 ## What i could add to this project?:
 
 ## A better way to write existing code?: 
@@ -58,7 +60,7 @@ I am testing my learning and adding to my knowledge by using Ruby on Rails to cr
   - Javascript on the front end and Rails on the backend.
   - Backend functions return json
   - Make API calls from the frontend with Javascript. 
--
+
 
 
 
