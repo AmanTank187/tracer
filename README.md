@@ -7,9 +7,20 @@ I am testing my learning and adding to my knowledge by using Ruby on Rails to cr
 
 ## Focus
 
-- Back-end: Database associations, MVC, Well tested application.
-- Front-end: Using bootstrap to make a good looking website.
-- Getting comfortable with rails. 
+- Back-end: Consolidate learnings of Database associations, MVC, Well tested application.
+- Front-end: Becoming more comfortable when creating views.
+- Getting more comfortable and confident with rails. 
+- Creating a project that i am passionate about and proud of. 
+- Exploring gems i am interested in.
+
+## Approach
+
+- Ensuring the fundamentals are done correctly.
+- Clean code.
+- Using my trello board often. 
+- Well tested code.
+- Use branches more often.
+
 
 
 
