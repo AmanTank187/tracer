@@ -50,9 +50,14 @@ I am testing my learning and adding to my knowledge by using Ruby on Rails to cr
 
 ## What i could have done better?:
 
-- Followed Test driven development more strictly 
+- Followed Test driven development more strictly.
+- Tidy up the modal code for location.
 
 ## What i could add to this project?:
+
+- User has a test status.
+- Constant DB check to see if anyone has tested positive.
+- Send messages to you and other users notifying when someone has tested positive. 
 
 ## A better way to write existing code?: 
 
@@ -60,9 +65,7 @@ I am testing my learning and adding to my knowledge by using Ruby on Rails to cr
   - Javascript on the front end and Rails on the backend.
   - Backend functions return json
   - Make API calls from the frontend with Javascript. 
-
-
-
-
+- Using a Javascript library such as Vue. 
+- Email confirmation using devise. 
 
 
